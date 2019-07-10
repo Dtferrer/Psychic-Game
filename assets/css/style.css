@@ -1,0 +1,31 @@
+/* Universal */
+body {
+    background-color: black;
+    color: white;
+    align-content: center;
+}
+
+/* Header */
+#gamer {
+    width: 100%;
+    height: 250px;
+}
+
+.cont {
+    position: relative;
+    text-align: center;
+}
+#vg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+#mario {
+    width: 350px;
+}
+
+/* Game Content */
