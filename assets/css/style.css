@@ -3,9 +3,14 @@ body {
     background-color: black;
     color: white;
     align-content: center;
+    height:100vh;
 }
 
 /* Header */
+.header {
+    margin: auto;
+}
+
 #gamer {
     width: 100%;
     height: 250px;
@@ -26,6 +31,22 @@ body {
 
 #mario {
     width: 350px;
+    margin: 10px auto;
+    display: block;
 }
 
+
 /* Game Content */
+.wrapper {
+    margin: 30px auto;
+    border: 5px dotted white;
+    height: 100vh;
+}
+
+.right {
+    border-left: 5px dotted white;
+}
+
+.gtext {
+    margin: 10px;
+}
